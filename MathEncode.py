@@ -67,7 +67,7 @@ def decode_secret(f1: Decimal, f2: Decimal) -> str:
 
 
 def demo():
-    text = "Hallo wie geht es dir mir geht es gut?"
+    text = "Hello how are you I am fine?"
     print(f"Original: {text}")
     f1, f2, f_full = encode_secret(text)
     print(f"Encoded: f1={f1}, f2={f2}")
